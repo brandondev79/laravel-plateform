@@ -1,0 +1,1 @@
+!function(){function e(e){var t=e.target.value;document.querySelector("#banks-table-mobile").className="banks-table-mobile-"+t}document.querySelector("#banks-table-select").addEventListener("change",e)}();

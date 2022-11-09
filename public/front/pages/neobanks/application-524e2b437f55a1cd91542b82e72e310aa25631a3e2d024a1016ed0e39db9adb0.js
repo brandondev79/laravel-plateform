@@ -1,0 +1,1 @@
+!function(){function e(e){var n=e.target.value;document.querySelector("#neobanks-table-mobile").className="neobanks-table-mobile-"+n}document.querySelector("#neobanks-table-select").addEventListener("change",e)}();

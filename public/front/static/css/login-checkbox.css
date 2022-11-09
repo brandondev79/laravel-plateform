@@ -1,0 +1,25 @@
+.LoginPasswordForm__checkbox-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+
+
+.LoginPasswordForm__checkbox-wrapper input {
+    -webkit-appearance: radio;
+}
+
+.LoginPasswordForm__checkbox-wrapper label {
+    font-size: 14px;
+}
+
+.LoginPasswordForm__checkbox-wrapper .LoginPasswordForm__title {
+    margin-bottom: 5px
+}
+
+.LoginPasswordForm__checkbox-wrapper .LoginPasswordForm__checkbox {
+    width: 50%;
+    float: left;
+    padding-left: 2px
+}

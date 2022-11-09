@@ -1,0 +1,55 @@
+@font-face {
+    font-family: OpenSans-Light;
+    src: url("OpenSans-Light-1c8d3cc6810ecd3623ebff7d2c3db1a44024260c5ae662f8166d69b9425828ed.ttf")
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("OpenSans-Regular-13c03e22a633919beb2847c58c8285fb8a735ee97097d7c48fd403f8294b05f8.ttf")
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    src: url("OpenSans-SemiBold-b4c2050b25d3d296d5cf58589ca00816dc72df42262c2f629d5c6a984a161aa4.ttf")
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url("OpenSans-Italic-a54dc8488f8193bf30c3820cf6f261f911f9d328d699e1a1b8042641554cec70.ttf")
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("OpenSans-Bold-5894a3649b213cf5b2d673b6e7a871815fd1d120fa68a463592f27db14eae323.ttf")
+}
+
+body,
+html,
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 0px
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body.block {
+    overflow: hidden
+}
+
+#container-general {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}

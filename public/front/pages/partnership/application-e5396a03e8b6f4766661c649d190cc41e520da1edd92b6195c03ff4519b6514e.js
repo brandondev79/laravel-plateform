@@ -1,0 +1,1 @@
+var enableScroll=function(o,e){var c=document.querySelector(o),l=document.querySelector(e);c.onclick=function(){l.scrollIntoView({behavior:"smooth",block:"start"})}};window.onload=function(){enableScroll("#scroller","#section-program")};

@@ -1,0 +1,2322 @@
+@font-face {
+    font-family: quora;
+    src: url("../../font/Quora-Regular.woff");
+}.btn-primary-large {
+    width: 320px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #00153E;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-primary-large:hover {
+    cursor: pointer;
+    background-color: #ED145D
+}
+
+@media (max-width: 374px) {
+    .btn-primary-large {
+        width: 100%
+    }
+}
+
+.btn-primary-small {
+    width: 240px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #00153E;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-primary-small:hover {
+    cursor: pointer;
+    background-color: #ED145D
+}
+
+.btn-default-large {
+    width: 320px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #f5f6fa;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    color: #414660
+}
+
+.btn-default-large:hover {
+    cursor: pointer;
+    background-color: #e9eaf0
+}
+
+@media (max-width: 374px) {
+    .btn-default-large {
+        width: 100%
+    }
+}
+
+.btn-default-small {
+    width: 240px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #f5f6fa;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-default-small:hover {
+    cursor: pointer;
+    background-color: #e9eaf0
+}
+
+.mt-80 {
+    margin-top: 80px
+}
+
+@media (max-width: 768px) {
+    .mt-80 {
+        margin-top: 64px
+    }
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+@media (max-width: 768px) {
+    .pt-80 {
+        padding-top: 64px
+    }
+}
+
+.mb-80 {
+    margin-bottom: 80px
+}
+
+@media (max-width: 768px) {
+    .mb-80 {
+        margin-bottom: 64px
+    }
+}
+
+.ml-80 {
+    margin-left: 80px
+}
+
+@media (max-width: 768px) {
+    .ml-80 {
+        margin-left: 64px
+    }
+}
+
+.mr-80 {
+    margin-right: 80px
+}
+
+@media (max-width: 768px) {
+    .mr-80 {
+        margin-right: 64px
+    }
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+@media (max-width: 768px) {
+    .pt-80 {
+        padding-top: 64px
+    }
+}
+
+.pt-64 {
+    padding-top: 64px
+}
+
+.pb-80 {
+    padding-bottom: 80px
+}
+
+@media (max-width: 768px) {
+    .pb-80 {
+        padding-bottom: 64px
+    }
+}
+
+.pt-160 {
+    padding-top: 160px
+}
+
+@media (max-width: 768px) {
+    .pt-160 {
+        padding-top: 80px
+    }
+}
+
+.pb-160 {
+    padding-bottom: 160px
+}
+
+@media (max-width: 768px) {
+    .pb-160 {
+        padding-bottom: 80px
+    }
+}
+
+.hide {
+    display: none !important
+}
+
+.show-block {
+    display: block !important
+}
+
+.show-flex {
+    display: flex !important
+}
+
+#container-general #section-question .container .container-head h2 {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: normal
+}
+
+#container-general #section-question .container .container-head h2 b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-head h2 {
+        font-size: 36px;
+        line-height: 48px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text h1 {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    font-weight: normal
+}
+
+#container-general #hero-no-image #section-start .container .container-text h1 b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container .container-text h1 {
+        font-size: 36px;
+        line-height: 48px
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price {
+        font-size: 42px;
+        line-height: 48px
+    }
+}
+
+#container-general #section-question .container .container-text .column .text h3 {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text .column .text h3 {
+        font-size: 18px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text p,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane#creators p,
+#container-general #section-question .container .container-text .column .text p,
+#toggle-btn .toggle .text,
+#tabs .nav li a,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text,
+#container-general #hero-no-image #section-start .container-details .subtitle,
+#container-general #section-question .container .container-head p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px
+}
+
+#container-general #hero-no-image #section-start .container .container-text p b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane#creators p b,
+#container-general #section-question .container .container-text .column .text p b,
+#toggle-btn .toggle .text b,
+#tabs .nav li a b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text b,
+#container-general #hero-no-image #section-start .container-details .subtitle b,
+#container-general #section-question .container .container-head p b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .container .container-text p,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+    #container-general #hero-no-image #section-start .tab-pane#creators p,
+    #container-general #section-question .container .container-text .column .text p,
+    #toggle-btn .toggle .text,
+    #tabs .nav li a,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text,
+    #container-general #hero-no-image #section-start .container-details .subtitle,
+    #container-general #section-question .container .container-head p {
+        font-size: 18px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text p,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane#creators p,
+#container-general #section-question .container .container-text .column .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #414660
+}
+
+#container-general #hero-no-image #section-start .container .container-text p b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane#creators p b,
+#container-general #section-question .container .container-text .column .text p b {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+#container-general #section-question .container .container-text .column .text h3 {
+    font-family: "HelveticaNeue-medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text .column .text h3 {
+        font-size: 18px
+    }
+}
+
+.btn-primary-large {
+    width: 320px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #00153E;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-primary-large:hover {
+    cursor: pointer;
+    background-color: #ED145D
+}
+
+@media (max-width: 374px) {
+    .btn-primary-large {
+        width: 100%
+    }
+}
+
+.btn-primary-small {
+    width: 240px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #00153E;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-primary-small:hover {
+    cursor: pointer;
+    background-color: #ED145D
+}
+
+.btn-default-large {
+    width: 320px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #f5f6fa;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    color: #414660
+}
+
+.btn-default-large:hover {
+    cursor: pointer;
+    background-color: #e9eaf0
+}
+
+@media (max-width: 374px) {
+    .btn-default-large {
+        width: 100%
+    }
+}
+
+.btn-default-small {
+    width: 240px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #f5f6fa;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none
+}
+
+.btn-default-small:hover {
+    cursor: pointer;
+    background-color: #e9eaf0
+}
+
+.mt-80 {
+    margin-top: 80px
+}
+
+@media (max-width: 768px) {
+    .mt-80 {
+        margin-top: 64px
+    }
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+@media (max-width: 768px) {
+    .pt-80 {
+        padding-top: 64px
+    }
+}
+
+.mb-80 {
+    margin-bottom: 80px
+}
+
+@media (max-width: 768px) {
+    .mb-80 {
+        margin-bottom: 64px
+    }
+}
+
+.ml-80 {
+    margin-left: 80px
+}
+
+@media (max-width: 768px) {
+    .ml-80 {
+        margin-left: 64px
+    }
+}
+
+.mr-80 {
+    margin-right: 80px
+}
+
+@media (max-width: 768px) {
+    .mr-80 {
+        margin-right: 64px
+    }
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+@media (max-width: 768px) {
+    .pt-80 {
+        padding-top: 64px
+    }
+}
+
+.pt-64 {
+    padding-top: 64px
+}
+
+.pb-80 {
+    padding-bottom: 80px
+}
+
+@media (max-width: 768px) {
+    .pb-80 {
+        padding-bottom: 64px
+    }
+}
+
+.pt-160 {
+    padding-top: 160px
+}
+
+@media (max-width: 768px) {
+    .pt-160 {
+        padding-top: 80px
+    }
+}
+
+.pb-160 {
+    padding-bottom: 160px
+}
+
+@media (max-width: 768px) {
+    .pb-160 {
+        padding-bottom: 80px
+    }
+}
+
+.hide {
+    display: none !important
+}
+
+.show-block {
+    display: block !important
+}
+
+.show-flex {
+    display: flex !important
+}
+
+#container-general #section-question .container .container-head h2 {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: normal
+}
+
+#container-general #section-question .container .container-head h2 b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-head h2 {
+        font-size: 36px;
+        line-height: 48px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text h1 {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    font-weight: normal
+}
+
+#container-general #hero-no-image #section-start .container .container-text h1 b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container .container-text h1 {
+        font-size: 36px;
+        line-height: 48px
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price {
+    font-family: quora;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price {
+        font-size: 42px;
+        line-height: 48px
+    }
+}
+
+#container-general #section-question .container .container-text .column .text h3 {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text .column .text h3 {
+        font-size: 18px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text p,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane#creators p,
+#container-general #section-question .container .container-text .column .text p,
+#toggle-btn .toggle .text,
+#tabs .nav li a,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text,
+#container-general #hero-no-image #section-start .container-details .subtitle,
+#container-general #section-question .container .container-head p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px
+}
+
+#container-general #hero-no-image #section-start .container .container-text p b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane#creators p b,
+#container-general #section-question .container .container-text .column .text p b,
+#toggle-btn .toggle .text b,
+#tabs .nav li a b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text b,
+#container-general #hero-no-image #section-start .container-details .subtitle b,
+#container-general #section-question .container .container-head p b {
+    font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .container .container-text p,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+    #container-general #hero-no-image #section-start .tab-pane#creators p,
+    #container-general #section-question .container .container-text .column .text p,
+    #toggle-btn .toggle .text,
+    #tabs .nav li a,
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text,
+    #container-general #hero-no-image #section-start .container-details .subtitle,
+    #container-general #section-question .container .container-head p {
+        font-size: 18px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text p,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month,
+#container-general #hero-no-image #section-start .tab-pane#creators p,
+#container-general #section-question .container .container-text .column .text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #414660
+}
+
+#container-general #hero-no-image #section-start .container .container-text p b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month b,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .month b,
+#container-general #hero-no-image #section-start .tab-pane#creators p b,
+#container-general #section-question .container .container-text .column .text p b {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+#container-general #section-question .container .container-text .column .text h3 {
+    font-family: "HelveticaNeue-medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #1b1e2b
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text .column .text h3 {
+        font-size: 18px
+    }
+}
+
+#toggle-btn *,
+#toggle-btn *::before,
+#toggle-btn *::after {
+    box-sizing: border-box
+}
+
+#toggle-btn .toggle {
+    user-select: none
+}
+
+#toggle-btn .toggle .text {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 157px;
+    height: 57px;
+    padding: 12px 16px;
+    font-size: 15px;
+    line-height: 16px;
+    pointer-events: none;
+    font-weight: normal;
+    z-index: 2;
+    color: #fff
+}
+
+@media (max-width: 768px) {
+    #toggle-btn .toggle .text {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 374px) {
+    #toggle-btn .toggle .text {
+        width: 126px;
+        padding: 10px 0px 10px 0px
+    }
+}
+
+#toggle-btn .toggle--checkbox {
+    display: none
+}
+
+#toggle-btn .toggle--btn {
+    display: block;
+    font-size: 1.4em;
+    transition: all 350ms ease-in
+}
+
+#toggle-btn .toggle--btn:hover {
+    cursor: pointer
+}
+
+#toggle-btn .toggle--btn,
+#toggle-btn .toggle--btn:before,
+#toggle-btn .toggle--btn:after,
+#toggle-btn .toggle--checkbox,
+#toggle-btn .toggle--checkbox:before,
+#toggle-btn .toggle--checkbox:after,
+#toggle-btn .toggle--feature,
+#toggle-btn .toggle--feature:before,
+#toggle-btn .toggle--feature:after {
+    transition: all 150ms ease-in
+}
+
+#toggle-btn .toggle--btn:before,
+#toggle-btn .toggle--btn:after,
+#toggle-btn .toggle--checkbox:before,
+#toggle-btn .toggle--checkbox:after,
+#toggle-btn .toggle--feature:before,
+#toggle-btn .toggle--feature:after {
+    content: '';
+    display: block
+}
+
+#toggle-btn .toggle--switch .toggle--btn {
+    position: relative;
+    height: 32px;
+    width: 61px;
+    border: 1px solid #00153E;
+    border-radius: 32px
+}
+
+#toggle-btn .toggle--switch .toggle--btn:before {
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 156px;
+    height: 57px;
+    border-radius: 4px;
+    z-index: 0
+}
+
+@media (max-width: 374px) {
+    #toggle-btn .toggle--switch .toggle--btn:before {
+        width: 126px
+    }
+}
+
+#toggle-btn .toggle--switch .toggle--btn {
+    background-color: transparent;
+    position: absolute;
+    width: 312px;
+    margin: 0;
+    height: 57px;
+    border-radius: 4px
+}
+
+@media (max-width: 374px) {
+    #toggle-btn .toggle--switch .toggle--btn {
+        width: 252px
+    }
+}
+
+#toggle-btn .toggle--switch .toggle--btn:before {
+    background-color: #00153E
+}
+
+#toggle-btn .toggle--switch .toggle--btn:after {
+    position: absolute;
+    top: 62%;
+    left: 23px;
+    z-index: 10;
+    width: 3.6px;
+    height: 3.6px;
+    opacity: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: opacity 100ms ease-in
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3)
+    }
+
+    50% {
+        opacity: 100;
+        transform: scale(1.1)
+    }
+
+    55% {
+        transform: scale(1.1)
+    }
+
+    75% {
+        transform: scale(0.9)
+    }
+
+    100% {
+        opacity: 100;
+        transform: scale(1)
+    }
+}
+
+#toggle-btn .toggle--switch .toggle--checkbox:checked+.toggle--btn:before {
+    left: 156px
+}
+
+@media (max-width: 374px) {
+    #toggle-btn .toggle--switch .toggle--checkbox:checked+.toggle--btn:before {
+        left: 126px
+    }
+}
+
+#tab-select {
+    display: none;
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    outline: 0;
+    min-width: 150px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    text-align-last: center;
+    color: #00153E;
+    background-color: #E5b9c8;
+    background: #E5b9c8 url("https://qonto-assets.s3.amazonaws.com/homepage/common/arrow-down-purple.svg") no-repeat 90% center;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin-bottom: 160px;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer
+}
+
+@media (max-width: 768px) {
+    #tab-select {
+        margin-bottom: 64px
+    }
+}
+
+@media (max-width: 768px) {
+    #tab-select {
+        display: block;
+        max-width: 305px
+    }
+}
+
+#tab-select:after {
+    content: "";
+    position: absolute;
+    bottom: 4px;
+    right: -18px;
+    width: 13px;
+    height: 7px;
+    background: url("https://qonto-assets.s3.amazonaws.com/homepage/common/arrow-down-purple.svg") no-repeat
+}
+
+#tab-select::-ms-expand {
+    display: none
+}
+
+#tabs {
+    display: block;
+    width: 100%;
+    margin: 0
+}
+
+@media (max-width: 768px) {
+    #tabs {
+        display: none
+    }
+}
+
+#tabs .tab-hold {
+    display: none
+}
+
+#tabs .nav {
+    display: table;
+    list-style: none;
+    text-align: center;
+    border-spacing: 43px 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 868px
+}
+
+#tabs .nav li {
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+    width: 33%;
+    border-bottom: 2px solid #d5d8e3
+}
+
+#tabs .nav li:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .3s
+}
+
+#tabs .nav li a {
+    color: #82879e;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 0;
+    padding-bottom: 8px;
+    text-decoration: none;
+    word-break: break-all;
+    hyphens: auto
+}
+
+#tabs .nav li a:hover {
+    color: #414660
+}
+
+#tabs .nav li.active:after {
+    width: 100%;
+    background: #00153E
+}
+
+#tabs .nav li.active a {
+    color: #00153E;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+@media (max-width: 1130px) {
+    #tabs .nav li span {
+        display: none
+    }
+}
+
+@media (max-width: 768px) {
+    #tabs {
+        position: relative;
+        min-width: 150px;
+        padding: 12px 20px;
+        border-radius: 24px;
+        cursor: pointer;
+        text-align: center;
+        outline: none;
+        color: #00153E;
+        background-color: #ED145D;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        margin-bottom: 160px
+    }
+}
+
+@media (max-width: 768px) and (max-width: 768px) {
+    #tabs {
+        margin-bottom: 64px
+    }
+}
+
+@media (max-width: 768px) {
+    #tabs.active {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px
+    }
+
+    #tabs.active .nav {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        max-height: 400px;
+        border: none;
+        border-radius: 0 0 24px 24px
+    }
+
+    #tabs .tab-hold {
+        display: inline-block;
+        position: relative;
+        margin-right: 18px
+    }
+
+    #tabs .tab-hold:after {
+        content: "";
+        position: absolute;
+        bottom: 4px;
+        right: -18px;
+        width: 13px;
+        height: 7px;
+        background: url("https://qonto-assets.s3.amazonaws.com/homepage/common/arrow-down-purple.svg") no-repeat
+    }
+
+    #tabs .nav {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        list-style: none;
+        max-height: 0;
+        overflow: hidden;
+        z-index: 1;
+        margin: 0;
+        border-spacing: 0;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        background-color: #ED145D;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out
+    }
+
+    #tabs .nav li {
+        border: none;
+        display: block;
+        margin: 0;
+        min-width: 100%;
+        max-width: 100%
+    }
+
+    #tabs .nav li.active {
+        border: none
+    }
+
+    #tabs .nav li.active a {
+        font-weight: bold
+    }
+
+    #tabs .nav li a {
+        text-decoration: none;
+        color: #00153E;
+        padding: 10px 0
+    }
+}
+
+.tab-content {
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 80px
+}
+
+@media (max-width: 768px) {
+    .tab-content {
+        padding-bottom: 64px
+    }
+}
+
+.tab-content .tab-pane {
+    display: none;
+    -webkit-animation: slide-down 0.4s cubic-bezier(0, 0, 0.5, 1);
+    -moz-animation: slide-down 0.4s cubic-bezier(0, 0, 0.5, 1)
+}
+
+.tab-content .tab-pane.active {
+    display: block
+}
+
+@-webkit-keyframes slide-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(2%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes slide-down {
+    0% {
+        opacity: 0;
+        -moz-transform: translateY(2%)
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0)
+    }
+}
+
+@media (min-width: 1440px) {
+    .tab-content {
+        max-width: 1440px
+    }
+}
+
+@media (max-width: 768px) {
+    .tab-content {
+        padding-top: 0
+    }
+
+    .tab-content .tab-pane {
+        margin-top: 0
+    }
+}
+
+#hero-no-image .accordion__wrapper.active .accordion-btn:before {
+    content: "\2212"
+}
+
+#hero-no-image .accordion__wrapper.active .accordion-panel {
+    max-height: 1200px;
+    transition: max-height 0.5s ease-out
+}
+
+#hero-no-image .accordion__wrapper .accordion-btn {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fafafc;
+    color: #414660;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.4s
+}
+
+#hero-no-image .accordion__wrapper .accordion-btn:before {
+    content: '\002B';
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 12px;
+    color: #00153E
+}
+
+@media (max-width: 768px) {
+    #hero-no-image .accordion__wrapper .accordion-btn:before {
+        top: 0
+    }
+}
+
+#hero-no-image .accordion__wrapper .accordion-panel {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    max-height: 0;
+    transition: max-height 0.2s ease-out
+}
+
+@media (max-width: 768px) {
+    #hero-no-image .accordion__wrapper .accordion-panel {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 12px;
+        padding-right: 12px
+    }
+}
+
+#hero-no-image .accordion__wrapper .accordion-panel .accordion-panel__row {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 0;
+    flex-grow: 1
+}
+
+@media (max-width: 768px) {
+    #hero-no-image .accordion__wrapper .accordion-panel .accordion-panel__row {
+        width: 100%
+    }
+}
+
+#hero-no-image .accordion__wrapper .accordion-panel .accordion-panel__row>div:nth-child(2) {
+    margin-bottom: auto
+}
+
+#hero-no-image .accordion__wrapper .accordion-panel .accordion-panel__row .accordion-panel__title {
+    padding-bottom: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2.4;
+    text-align: center
+}
+
+#hero-no-image .column {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#hero-no-image .column .btn-primary-small {
+    margin: auto
+}
+
+#hero-no-image .column .column__wrapper {
+    width: 33%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 64px
+}
+
+#hero-no-image .column .column__wrapper .column__header {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fafafc;
+    color: #414660;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.4s
+}
+
+#hero-no-image .column .column__wrapper .column__body .column__row {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+@media (max-width: 768px) {
+    #hero-no-image .column .column__wrapper .column__body .column__row {
+        width: 100%
+    }
+}
+
+#hero-no-image .column-action {
+    text-align: center
+}
+
+#hero-no-image .column-action a {
+    display: inline-block
+}
+
+#hero-no-image .accordion-panel__row:not(:first-child) .bulleted-list__header {
+    display: none
+}
+
+#hero-no-image .bulleted-list__header {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: -39px;
+    line-height: 1.71;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1b1e2b;
+    width: 100%
+}
+
+#hero-no-image .mobile .bulleted-list__header {
+    display: block;
+    margin-bottom: 16px
+}
+
+#hero-no-image .bulleted-list__body {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 32px;
+    padding-left: 16px;
+    margin-top: 50px
+}
+
+#hero-no-image .bulleted-list__body .bulleted-list__item {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    color: #82879e;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.43;
+    margin-bottom: 12px
+}
+
+#hero-no-image .bulleted-list__body .bulleted-list__item strong {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal
+}
+
+#hero-no-image .bulleted-list__body .bulleted-list__item svg {
+    display: block;
+    position: relative;
+    top: 7px;
+    margin-right: 12px
+}
+
+#hero-no-image .mobile .bulleted-list__body {
+    margin-top: 0
+}
+
+#hero-no-image .mobile .bulleted-list__body .bulleted-list__item svg {
+    top: 8px
+}
+
+#container-general #hero-no-image #section-start {
+    display: block;
+    background: none;
+    padding-bottom: 120px;
+    padding-top: 160px
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 88px;
+        padding-bottom: 0
+    }
+}
+
+#container-general #hero-no-image #section-start .container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-right: 32px
+}
+
+@media (max-width: 413px) {
+    #container-general #hero-no-image #section-start .container {
+        margin-left: 24px;
+        margin-right: 24px
+    }
+}
+
+@media (max-width: 374px) {
+    #container-general #hero-no-image #section-start .container {
+        margin-left: 16px;
+        margin-right: 16px
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text {
+    text-align: center;
+    opacity: 0;
+    animation: fadein100 1s forwards cubic-bezier(0.5, -0.01, 0, 1.005) 0.2s
+}
+
+#container-general #hero-no-image #section-start .container .container-text h1 {
+    color: #00153E;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 1130px) {
+    #container-general #hero-no-image #section-start .container .container-text h1 {
+        max-width: 100%
+    }
+}
+
+#container-general #hero-no-image #section-start .container .container-text p {
+    text-align: center;
+    margin-top: 32px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container .container-text p {
+        max-width: 100%
+    }
+}
+
+#container-general #hero-no-image #section-start .top-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    background: linear-gradient(to bottom, #fff, #f5f6fa)
+}
+
+#container-general #hero-no-image #section-start .top-bg svg {
+    position: absolute;
+    top: 100%;
+    height: auto
+}
+
+#container-general #hero-no-image #section-start .tab-pane {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .tab-pane {
+        padding-bottom: 0
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack {
+    margin-top: 32px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack {
+    padding-bottom: 84px;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan {
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+    max-width: 305px
+}
+
+@media (max-width: 374px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan {
+        margin-left: 8px;
+        margin-right: 8px
+    }
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan {
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 56px
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card {
+    border-radius: 8px;
+    padding: 32px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 15px 50px 0 rgba(28, 15, 125, 0.05)
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card h2,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: #1b1e2b;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1;
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .btn-default-large,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .btn-default-large {
+    width: 100%;
+    margin-top: 32px;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .free-month,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .free-month {
+    margin-top: 8px;
+    padding: 4px 8px 4px 8px;
+    font-weight: 300;
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .capital-deposit,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .capital-deposit {
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .months,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .months {
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .capital-deposit,
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .months,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .capital-deposit,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .months {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #414660;
+    letter-spacing: -0.1px;
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .price {
+    margin-top: 32px;
+    font-weight: bold
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features {
+    width: auto
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature {
+    display: flex;
+    align-items: flex-start
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature .fix-to-put-on-1-line,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature .fix-to-put-on-1-line {
+    letter-spacing: -0.3px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature .fix-to-put-on-2-lines,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature .fix-to-put-on-2-lines {
+    letter-spacing: -0.2px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature:first-child,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature:first-child {
+    margin-top: 48px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature:not(:first-child),
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature:not(:first-child) {
+    margin-top: 16px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature.no-feature span,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature.no-feature span {
+    opacity: 0.3
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature svg,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature svg {
+    width: 13px;
+    height: 16px;
+    margin-right: 13px;
+    display: flex
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card .features .feature span,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card .features .feature span {
+    display: inline-block;
+    max-width: 210px;
+    font-family: "OpenSans-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #414660
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly {
+        display: none;
+        margin-top: 32px
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly.mobile,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly.mobile {
+    display: none
+}
+
+@media (max-width: 768px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly.mobile,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly.mobile {
+        display: block;
+        text-align: center
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .btn-default-large,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .btn-default-large {
+    width: 320px;
+    border-radius: 4px;
+    border-style: none;
+    transition: all 0.3s ease;
+    background-color: #e9eaf0;
+    padding: 12px 8px 12px 8px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    color: #414660;
+    margin-top: 32px;
+    width: 100%
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .btn-default-large:hover,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .btn-default-large:hover {
+    cursor: pointer;
+    background-color: #d5d8e3
+}
+
+@media (max-width: 374px) {
+
+    #container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .btn-default-large,
+    #container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .btn-default-large {
+        width: 100%
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line {
+    margin-top: 16px;
+    display: flex
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container {
+    display: block;
+    margin: auto;
+    width: auto
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #1b1e2b;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .number,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .number {
+    min-width: 45px;
+    text-align: right
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text {
+    color: #414660;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    margin-left: 20px
+}
+
+#container-general #hero-no-image #section-start .tab-pane .container-plans .plan .card-monthly .price-line .container .price .text b,
+#container-general #hero-no-image #section-start .tab-pane .container-no_pack .plan .card-monthly .price-line .container .price .text b {
+    font-weight: bold
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-standard .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-standard .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-standard .card h2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-standard .card .features .feature svg {
+    fill: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-standard .mobile .accordion-btn:before {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-premium .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-premium .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-premium .card h2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-premium .card .features .feature svg {
+    fill: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-premium .mobile .accordion-btn:before {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-enterprise .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-enterprise .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-enterprise .card h2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-enterprise .card .features .feature svg {
+    fill: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .plan.plan-enterprise .mobile .accordion-btn:before {
+    color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .accordion-panel__row.standard {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .accordion-panel__row.premium {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#enterprises .accordion-panel__row.enterprise {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers {
+    max-width: 450px
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .plan.plan-solo .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .plan.plan-solo .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .plan.plan-solo .card h2,
+#container-general #hero-no-image #section-start .tab-pane#freelancers .plan.plan-solo .card .accordion-panel__row.solo {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .plan.plan-solo .card .features .feature svg {
+    fill: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .accordion-btn:before {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .accordion-panel__title {
+    display: none
+}
+
+#container-general #hero-no-image #section-start .tab-pane#freelancers .btn-default-large {
+    margin-left: auto;
+    margin-right: auto
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators {
+    max-width: 675px
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .tab-pane#creators {
+        margin-top: 0
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators p {
+    text-align: center;
+    max-width: 340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .plan-saving {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .price-line {
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .price-line .price-details-1 {
+    margin-bottom: 8px;
+    margin-top: 4px
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .price-line .price-details-2 {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .price-details-2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .card:not(.card-monthly) h2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .plan-saving {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .mobile.card-monthly .btn-default-large {
+    background-color: #f5f6fa;
+    color: #414660;
+    display: block
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .mobile.card-monthly .btn-default-large:hover {
+    background-color: #e9eaf0
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .mobile.card-monthly h3 {
+    color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-solo .mobile .accordion-btn:before {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .price-details-2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .btn-default-large {
+    background-color: #00153E;
+    color: #fff
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .btn-default-large:hover {
+    background-color: #ED145D
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .card:not(.card-monthly) h2 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .plan-saving {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .mobile.card-monthly .btn-default-large {
+    background-color: #f5f6fa;
+    color: #414660;
+    display: block
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .mobile.card-monthly .btn-default-large:hover {
+    background-color: #e9eaf0
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .mobile.card-monthly h3 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-plans .plan.plan-standard .mobile .accordion-btn:before {
+    color: #00153E
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack_title {
+        display: none
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack .plan .btn-default-large {
+    background-color: #f5f6fa
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack .plan .btn-default-large:hover {
+    background-color: #e9eaf0
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack .plan h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack .plan.plan-solo h3 {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack .plan.plan-standard h3 {
+    color: #00153E
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .tab-pane#creators .container-no_pack {
+        display: none
+    }
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .accordion__wrapper .accordion-btn:before {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .accordion__wrapper .accordion-panel__row.solo {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .tab-pane#creators .accordion__wrapper .accordion-panel__row.standard {
+    color: #00153E
+}
+
+#container-general #hero-no-image #section-start .container-details {
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+#container-general #hero-no-image #section-start .container-details .subtitle {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #9fa3b5
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container-details {
+        display: none;
+        margin-bottom: 58px
+    }
+}
+
+#container-general #hero-no-image #section-start .container-details.mobile {
+    display: none
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container-details.mobile {
+        display: block
+    }
+}
+
+#container-general #hero-no-image #section-start .container-details h2 {
+    font-size: 52px;
+    text-align: center;
+    margin-top: 76px;
+    color: #1b1e2b;
+    font-weight: 200;
+    line-height: 1.23;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container-details h2 {
+        font-size: 32px;
+        font-weight: 100;
+        margin: 64px 0 32px 0
+    }
+}
+
+#container-general #hero-no-image #section-start .container-details .btn-default-large {
+    margin: 48px auto 48px 10px;
+    display: block;
+    width: 83%
+}
+
+@media (max-width: 768px) {
+    #container-general #hero-no-image #section-start .container-details .btn-default-large {
+        margin: 40px auto 0 auto;
+        width: 90%
+    }
+}
+
+#container-general #hero-no-image #section-start .container {
+    margin: 0
+}
+
+#container-general #section-question {
+    background: linear-gradient(to bottom, #f5f6fa, #fff)
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .bottom-convex-white {
+        position: relative;
+        display: block;
+        top: 0
+    }
+}
+
+#container-general #section-question .container {
+    max-width: 1024px;
+    margin: auto
+}
+
+#container-general #section-question .container .container-head {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-head {
+        margin-left: 32px;
+        margin-right: 32px
+    }
+}
+
+@media (max-width: 768px) and (max-width: 413px) {
+    #container-general #section-question .container .container-head {
+        margin-left: 24px;
+        margin-right: 24px
+    }
+}
+
+@media (max-width: 768px) and (max-width: 374px) {
+    #container-general #section-question .container .container-head {
+        margin-left: 16px;
+        margin-right: 16px
+    }
+}
+
+#container-general #section-question .container .container-head h2 {
+    margin-top: 160px;
+    text-align: center;
+    color: #1b1e2b
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-head h2 {
+        margin-top: 64px
+    }
+}
+
+#container-general #section-question .container .container-head p {
+    margin-top: 24px;
+    text-align: center;
+    color: #9fa3b5
+}
+
+#container-general #section-question .container .container-text {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: row
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text {
+        margin-top: 24px
+    }
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text {
+        margin-bottom: 64px
+    }
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text {
+        margin-bottom: 64px;
+        flex-direction: column;
+        padding: 0 25px
+    }
+}
+
+#container-general #section-question .container .container-text .column {
+    max-width: 672px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-text .column {
+        max-width: 100%;
+        text-align: justify
+    }
+}
+
+#container-general #section-question .container .container-text .column .text {
+    margin-top: 32px;
+    display: inline-block;
+    min-height: 160px
+}
+
+#container-general #section-question .container .container-text .column .text h3 {
+    color: #1b1e2b
+}
+
+#container-general #section-question .container .container-text .column .text p {
+    margin-top: 8px;
+    color: #414660
+}
+
+#container-general #section-question .container .container-action {
+    margin-bottom: 160px;
+    text-align: center
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-action {
+        margin-bottom: 64px
+    }
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-action {
+        padding-right: 24px;
+        padding-left: 24px
+    }
+}
+
+#container-general #section-question .container .container-action a {
+    display: inline-block
+}
+
+@media (max-width: 768px) {
+    #container-general #section-question .container .container-action .btn-primary-small {
+        width: 100%
+    }
+}
+
+#hero-no-image .ftr svg {
+    fill: #77ce44;
+    top: 50%;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    margin-right: 16px
+}
